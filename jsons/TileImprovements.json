@@ -1,7 +1,7 @@
 [
 	{//朝鲜-书院
-		"name": "Distict_Academy_of_Classical_Learning",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform_Hill","Landform_Forest","Landform_Rainforest","Landform_Swamp","Landform_Alluvial plain","Landform_Floodplain"],
+		"name": "Distict.LearningAcademy",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Forest","Landform.Rainforest","Landform.Swamp","Landform.AlluvialPlain","Landform.FloodPlain"],
 		"food": -10,
 		"production":-10,
 		"gold":-10,
@@ -11,22 +11,22 @@
 		"happiness":-10,
 		"uniques": ["Great Improvement",
 			"Tile provides yield without assigned population",
-			"[+1 Science] for each adjacent [Class_Government_Plaza]",
-			"[+2 Science] for each adjacent [Distinct_The_Great_Library]",
-			"Can only be built on [Landform_Hill] tiles",
+			"[+1 Science] for each adjacent [Class.GovernmentPlaza]",
+			"[+2 Science] for each adjacent [District.TheGreatLibrary]",
+			"Can only be built on [Landform.Hill] tiles",
 			"Removes removable features when built",
 			"Irremovable",
 			"Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness]",
-			"Classification_District","Class_Campus"
+			"Class.District","Class.Campus"
 		],
 		"civilopediaText":[
 			{
 				"text":"Provide additional scientific research bonus for adjacent mines as technology grows",
-				"link":"Improvement/Improvement_Mine"
+				"link":"Improvement/Improvement.Mine"
 			},
 			{
 				"text":"+1 Gold for each adjacent Farm",
-				"link":"Improvement/Improvement_Farm"
+				"link":"Improvement/Improvement.Farm"
 			}
 		]
 	}

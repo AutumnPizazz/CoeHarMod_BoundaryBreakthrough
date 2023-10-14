@@ -1,16 +1,16 @@
 [
 	{//界罗马
-		"name": "Nation_Rome",
+		"name": "Nation.Rome",
 		"leaderName": "Trajan",
 		"adjective": ["Roman"],
 		"startBias": ["Plains","Grassland"],
-		"preferredVictoryType": "Victory type_Conquest",
+		"preferredVictoryType": "VictoryType.Conquest",
 	
 		"outerColor": [72, 61, 139],
 		"innerColor": [255, 215, 0],
 
 		"uniqueName": "Roman Legions",
-		"uniques": ["Gain a free [Building_Monument] [in all cities]",
+		"uniques": ["Gain a free [Building.Monument] [in all cities]",
 		"[-50]% tile improvement construction time"], 
 
 		"cities": ["Rome", "Carthage", "Athens", "Alexandria", "Sparta", "Corinth", "Byzantium", "Pompeii", "Florence", "Venice", "Naples", "Milan", "Turin", "Verona", "Genoa", "Pisa", "Siena", "Palermo", "Catania", "Bari"],
@@ -18,17 +18,17 @@
 		"startIntroPart1": "","startIntroPart2": "","declaringWar": "","attacked": "","defeated": "","introduction": "","neutralHello": "","hateHello": "","tradeRequest": ""
 	},
 	{//界朝鲜
-		"name": "Nation_Korea",
+		"name": "Nation.Korea",
 		"leaderName": "Queen Seondeok",
 		"adjective": ["Korean"],
 		"outerColor": [0, 104, 183],
 		"innerColor": [255, 255, 255],
 		"startBias": ["Landform_Hill","Avoid [Mountain]"],
-		"preferredVictoryType": "Victory type_Science",
+		"preferredVictoryType": "VictoryType.Science",
 
 		"uniqueName": "Hwarang",
-		"uniques": ["[+6]% [Science] from every [Building_Classification_Governor]",
-			"[+6]% [Culture] from every [Building_Classification_Governor]"],
+		"uniques": ["[+6]% [Science] from every [Class.Governor]",
+			"[+6]% [Culture] from every [Class.Governor]"],
 
 		"cities": ["Seoul", "Pyongyang", "Busan", "Gyeongju", "Kaesong", "Jeonju", "Suwon", "Andong", "Gwangju", "Jeju", "Ulsan", "Incheon", "Changwon", "Gimhae", "Cheongju", "Daegu", "Daejeon", "Gangneung", "Wonju", "Yeongju"],
 	
